@@ -432,7 +432,6 @@ overlay.addEventListener('click', e=>{ if(e.target===overlay) overlay.classList.
 
 /* ---------- Tactics board ---------- */
 const formations = {
-  const formations = {
   "2-3-1": [
     {pos:"GK", x:50,y:90},
     {pos:"CB", x:30,y:74},{pos:"CB",x:70,y:74},
@@ -518,7 +517,7 @@ function refreshRosterUsedState(){
 formationSelect.value = "2-3-1";
 formationSelect.addEventListener('change', renderFormation);
 renderFormation();
-
+  
 /* ---------- Roster rail + custom pointer-based drag ---------- */
 const rosterRail = document.getElementById('rosterRail');
 players.forEach(p=>{
